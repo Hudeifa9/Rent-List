@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+       body {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+body.dark-mood {
+    background-color: rgb(6, 10, 51);
+    color: white;
+     transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.moodButton {
+    margin: 20px;
+    cursor: pointer;
+}
+
+.moodButton.dark-mood {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+    </style>
+</head>
+<body>
+
+<button class="moodButton"><span><i class="fa-solid fa-moon"></i></span></button>
+
+<div class="container">
+    <div class="content">
+        <fieldset>
+            <legend><h1 class="title">Rent List</h1></legend>
+            <label id="ame" for="Name">Name</label>
+            <input type="text" name="Name" id="Name" placeholder="Hudeifa Mohamud">
+            <input type="number" name="money" id="money" placeholder="Money">
+            <button class="btn" id="btn">
+                <span>Add..</span>
+                <i class="fa-solid fa-plus"></i>
+            </button>
+        </fieldset>
+    </div>
+</div>
+
+<table class="rent-table">
+    <thead>
+        <tr>
+            <th>Full Name</th>
+            <th>Money</th>
+            <th>Paid</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+  
+}
+.container{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+fieldset{
+    background-color: aliceblue;
+    border: solid rgb(65, 166, 255) 1px;
+    border-radius: 3px;
+    padding: 40px;
+}
+fieldset h1{
+    color: rgba(9, 9, 160, 0.847);
+}
+
+input{
+    padding: 5px;
+    outline: none;
+}
+.btn {
+    padding: 7px 12px;
+    /* padding: 8PX; */
+    outline: none;
+    border: none;
+    background-color: rgba(9, 9, 160, 0.847);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn span {
+    position: relative;
+    z-index: 3; 
+    left: 0px;
+    margin-right: 13px;
+    padding: 4px;
+    align-items: center;
+
+    
+}
+.fa-plus {
+    background-color: rgba(101, 101, 246, 0.847);
+    padding: 6px 10px;
+    border-radius: 4px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+
+    /* margin-right: 0px; */
+
+}
+
+.rent-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+  }
+  
+  .rent-table th,
+  .rent-table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+  }
+  
+  .rent-table thead {
+    background-color: rgba(9, 9, 160, 0.847);
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-btn i {
+    pointer-events: none;
+  }
+  
+  .FullTest{
+    
+    color: gray;
+  }
+
+  .fa-sun{
+    color: rgb(24, 31, 254) ;
+    padding: 10px 5px;
+    border-radius: 13px;
+    transition: all 0.5s ease-in-out; 
+  }
+  .fa-moon{
+    color: rgb(24, 31, 254) ;
+    padding: 10px 5px;
+    border-radius: 13px;
+    transition: all 0.5s ease-in-out; 
+  }
+
+
